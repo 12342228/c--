@@ -1,12 +1,17 @@
-#include <iostream>
+#include<bits/stdc++.h>
 using namespace std;
-
-int main(){
-  int a,b;
-  cout <<"enter two numbers:";
-  cin>>a>>b;
-  if(a>b) cout<<"greater is:."<<a;
-  if(b>a) cout<<"greater is :"<<b;
-
-  return 0;
+void print1(int n){
+    for(int i=0;i<n;i++){
+     for(int j=0;j<n;j++){
+        cout<<"*";
+     }
+     cout<<endl;
+    }
 }
+    int main(){
+        int n;
+        cin>>n;
+        print1(n);
+        return 0;
+
+    } 
